@@ -2,7 +2,8 @@
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
  */
 function arrayLength (array) {
-  for (var i = 0; i < array.length; i++) {
+  let i = 0;
+  for (i = 0; i < array.length; i++) {
   }
 
   return i

@@ -2,8 +2,11 @@
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
  */
 
-function fullName (user) {
-  return `${user.name} ${user.surname}`
+//function fullName (user) {
+//  return `${user.name} ${user.surname}`
+//}
+function fullName ({name,surname}) {
+  return `${name} ${surname}`
 }
 
 test('refactor the fullName function to argument destructuring', () => {

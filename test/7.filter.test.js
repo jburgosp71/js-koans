@@ -2,13 +2,7 @@
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
  */
 function getOddNumbers (numbers) {
-  const oddNumbers = []
-  for (const index in numbers) {
-    const number = numbers[index]
-    if (number % 2 === 0) {
-      oddNumbers.push(number)
-    }
-  }
+  const oddNumbers = numbers.filter(number => number % 2 === 0);
 
   return oddNumbers
 }

@@ -2,7 +2,7 @@
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
  */
 function createArrayWith () {
-  var array = []
+  const array = []
   for (const index in arguments) {
     array.push(arguments[index])
   }

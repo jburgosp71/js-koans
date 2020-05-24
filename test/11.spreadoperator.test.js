@@ -11,7 +11,8 @@ test('change the object assign to the spread operator', () => {
     age: 5
   }
 
-  const clonedSheep = cloneObject(sheep)
+  //const clonedSheep = cloneObject(sheep)
+  const clonedSheep = {...sheep}
 
   expect(clonedSheep).toEqual(sheep)
 })

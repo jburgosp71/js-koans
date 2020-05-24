@@ -4,10 +4,8 @@
 
 function getPeopleNames (people) {
   const names = []
-  for (const index in people) {
-    const person = people[index]
-    names.push(person.name)
-  }
+
+  people.map((item) => { return names.push(item.name); })
 
   return names
 }

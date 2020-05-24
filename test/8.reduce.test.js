@@ -3,11 +3,9 @@
  */
 
 const sumNumbers = (numbers) => {
-  let total = 0
-  numbers.forEach(element => {
-    total += element
-  })
+  const reducer = (partial, current) => partial + current;
 
+  let total = numbers.reduce(reducer)
   return total
 }
 

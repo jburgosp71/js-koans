@@ -2,7 +2,7 @@
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
  */
 function initializeMapWithMyCoords () {
-  var map = {}
+  const map = {}
   map.latitude = global.getLatitiude()
   map.longitude = global.getLongitude()
 

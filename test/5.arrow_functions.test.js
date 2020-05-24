@@ -9,7 +9,7 @@ class PoisonedPlayer {
 
   slowDeath () {
     const _this = this
-    setInterval(function () {
+    setInterval( () => {
       _this.yearsLeft--
     }, 1000)
   }

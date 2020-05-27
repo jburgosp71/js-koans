@@ -1,8 +1,6 @@
-function createArrayWith () {
+function createArrayWith (...args) {
   var array = []
-  for (const index in arguments) {
-    array.push(arguments[index])
-  }
+  args.forEach(element => array.push(element))
 
   return array
 }

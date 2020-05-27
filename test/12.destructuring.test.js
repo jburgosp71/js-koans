@@ -2,9 +2,6 @@
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
  */
 
-//function fullName (user) {
-//  return `${user.name} ${user.surname}`
-//}
 function fullName ({name,surname}) {
   return `${name} ${surname}`
 }

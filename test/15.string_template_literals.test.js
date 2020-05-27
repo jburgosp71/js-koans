@@ -2,7 +2,8 @@
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
  */
 const greet = (name) => {
-  return 'Hello ' + name + '!'
+  //return 'Hello ' + name + '!'
+  return `Hello ${name}!`
 }
 
 test('change the string concatenation with the string literal', () => {

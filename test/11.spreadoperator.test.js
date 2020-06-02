@@ -2,7 +2,8 @@
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
  */
 
-const cloneObject = object => Object.assign({}, object)
+//const cloneObject = object => Object.assign({}, object)
+const cloneObject = (object) => {return {...object}}
 
 test('change the object assign to the spread operator', () => {
   const sheep = {
@@ -11,8 +12,7 @@ test('change the object assign to the spread operator', () => {
     age: 5
   }
 
-  //const clonedSheep = cloneObject(sheep)
-  const clonedSheep = {...sheep}
+  const clonedSheep = cloneObject(sheep)
 
   expect(clonedSheep).toEqual(sheep)
 })

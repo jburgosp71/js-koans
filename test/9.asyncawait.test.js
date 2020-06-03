@@ -1,7 +1,7 @@
 /**
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
  */
-import "regenerator-runtime/runtime";
+//import "regenerator-runtime/runtime";
 
 const obtainTheSpeedForThePlainById = async (planeId) => {
   return  await global.doRequest({planeId})

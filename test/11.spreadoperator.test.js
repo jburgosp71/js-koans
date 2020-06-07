@@ -3,7 +3,7 @@
  */
 
 //const cloneObject = object => Object.assign({}, object)
-const cloneObject = (object) => {return {...object}}
+const cloneObject = (object) => { return {...object}}
 
 test('change the object assign to the spread operator', () => {
   const sheep = {
